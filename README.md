@@ -49,13 +49,25 @@ $ git commit -m "fist commit"
 ### git branch
 
 **git branch** It is used for branching.
-1. Create branch in existing repo
+1. Get all branches
+```bash
+$ git branch
+```
+2. Create branch in existing repo
 ```bash
 $ git branch v.0.1
 ```
-2. Check out branch 
+3. Check out branch 
 ```bash
 $ git checkout v.0.1
+```
+4. Get all branches with latest commit
+```bash
+$ git branch -v
+```
+5. Delete a branch 
+```bash
+$ git branch -d v.0.1
 ```
 
 ### git remote
