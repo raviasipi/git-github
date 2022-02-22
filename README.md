@@ -12,6 +12,9 @@
 | 2   | [**Git status**](#git-status)         |
 | 3   | [**Git add**](#git-add)               |
 | 4   | [**Git commit**](#git-commit)         |
+| 5   | [**Git branch**](#git-branch)         |
+| 6   | [**Git remote**](#git-remote)         |
+| 6   | [**Git push**](#git-push)         |
 
 ### git init
 
@@ -19,7 +22,6 @@
 ```bash
 $ git init
 ```
-
 
 ### git status
 
@@ -35,12 +37,42 @@ $ git status
 $ git add .
 ```
 
-
 ### git commit
 
 **git commit** it is used to commit changes.
 ```bash
 $ git commit -m "fist commit"
+```
+
+### git branch
+
+**git branch** It is used for branching.
+1. Create branch in existing repo
+```bash
+$ git branch v.0.1
+```
+2. Check out branch 
+```bash
+$ git checkout v.0.1
+```
+
+### git remote
+
+**git remote** it is used to create a ref for remote repo.
+1. Get all remote references
+```bash
+$ git remote -v
+```
+2. Create a remote reference ( a remote ref 'origin' gets created)
+```bash
+$ git remote add origin https://github.com/username/example.git
+```
+
+### git push
+
+**git push** it is used to push local changes in current branch to remote repo.
+```bash
+$ git push -u origin v.0.1
 ```
 
 **[⬆ Back to Top](#table-of-contents)**
