@@ -14,9 +14,9 @@
 | 4   | [**Git commit**](#git-commit)       |
 | 5   | [**Git branch**](#git-branch)       |
 | 6   | [**Git remote**](#git-remote)       |
-| 6   | [**Git push**](#git-push)         	|
-| 6   | [**Git fetch**](#git-fetch)        	|
-| 6   | [**Git pull**](#git-pull)         	|
+| 7   | [**Git push**](#git-push)         	|
+| 8   | [**Git fetch**](#git-fetch)        	|
+| 9   | [**Git pull**](#git-pull)         	|
 											
 ### git init
 
