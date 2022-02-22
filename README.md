@@ -6,16 +6,18 @@
 
 ---
 
-| No. | Topic                                 |
-| --- | --------------------------------------|
-| 1   | [**Git init**](#git-init)             |
-| 2   | [**Git status**](#git-status)         |
-| 3   | [**Git add**](#git-add)               |
-| 4   | [**Git commit**](#git-commit)         |
-| 5   | [**Git branch**](#git-branch)         |
-| 6   | [**Git remote**](#git-remote)         |
-| 6   | [**Git push**](#git-push)         |
-
+| No. | Topic                               |
+| --- | ------------------------------------|
+| 1   | [**Git init**](#git-init)           |
+| 2   | [**Git status**](#git-status)       |
+| 3   | [**Git add**](#git-add)             |
+| 4   | [**Git commit**](#git-commit)       |
+| 5   | [**Git branch**](#git-branch)       |
+| 6   | [**Git remote**](#git-remote)       |
+| 6   | [**Git push**](#git-push)         	|
+| 6   | [**Git fetch**](#git-fetch)        	|
+| 6   | [**Git pull**](#git-pull)         	|
+											
 ### git init
 
 **git init** It is used to initialise local git repo.
@@ -74,5 +76,20 @@ $ git remote add origin https://github.com/username/example.git
 ```bash
 $ git push -u origin v.0.1
 ```
+
+### git fetch
+
+**git fetch** it is used to fetch current status of remote repo.
+```bash
+$ git fetch
+```
+
+### git pull
+
+**git pull** it is used to pull latest remote repo.
+```bash
+$ git pull
+```
+
 
 **[⬆ Back to Top](#table-of-contents)**
